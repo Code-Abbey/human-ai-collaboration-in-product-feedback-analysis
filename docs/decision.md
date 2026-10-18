@@ -1,13 +1,13 @@
 # Why the datasets fit the project
 
-The [research questions and objectives](research-questions.md) require written reviews from one app. The reviews must contain enough useful feedback to identify common topics, write summaries and suggest app improvements. Existing labels or summaries are not required.
+The [concept](concept.md) calls for approximately 100–300 written reviews from a selected product domain. I currently propose selecting one app. The reviews must contain enough useful feedback to identify common topics, write summaries and suggest app improvements. Existing labels or summaries are not required.
 
 | Part of the project | What the dataset provides |
 |---|---|
 | Manual analysis | Reviews that a person can read and group. |
 | AI analysis | The same review text as input to the AI. |
 | Human refinements | Original reviews that a person can use to check, edit, merge or split AI-generated outputs. |
-| Expert report evaluation | Evidence for rating clarity, usefulness, actionability and relevance to the original reviews. |
+| Expert report evaluation | Evidence for rating clarity, usefulness, actionability, relevance, completeness and overall quality. |
 
 Participants' perceived workload and the types of changes they make will be recorded during the study. These measures do not need to be included in the original dataset.
 

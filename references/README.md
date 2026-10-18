@@ -2,10 +2,11 @@
 
 These sources describe the datasets and relevant approaches to app-review analysis. The full citation details are saved in [references.bib](references.bib). Bibliographic details were checked on 18 October 2026.
 
-## Papers used in the submitted objectives
+## Concept paper references
 
-- Dąbrowski, Letier, Perini and Susi (2022), *Analysing app reviews for software engineering: a systematic literature review*. Empirical Software Engineering, 27, article 43. [DOI: 10.1007/s10664-021-10065-7](https://doi.org/10.1007/s10664-021-10065-7). This provides background for the small app-review analysis pipeline in objective 1.
-- Yan et al. (2023), *Human-AI Collaboration in Thematic Analysis using ChatGPT: A User Study and Design Recommendations*. [Preprint DOI: 10.48550/arXiv.2311.03999](https://doi.org/10.48550/arXiv.2311.03999). This informs the human refinement process in objective 3. The 2023 citation refers to the preprint. A conference version appeared in 2024: [DOI: 10.1145/3613905.3650732](https://doi.org/10.1145/3613905.3650732).
+All ten sources from the concept are included in the [full concept bibliography](concept-references.md), with APA-style entries and DOI links. They cover app-review analysis, interactive machine learning, Human-AI interface design, text similarity, topic modelling and insight generation.
+
+The [BibTeX file](references.bib) includes these sources as well as the dataset references below. The concept overview and study plan cite the relevant papers alongside the proposed methods.
 
 ## Dataset sources and related papers
 
