@@ -33,7 +33,6 @@ The proposed dataset is **Kahoot! reviews from GenAI-EdSent**. Spotify and Zoom 
 
 The initial checks exclude reviews with no text, reviews with fewer than five words, repeated text, and reviews flagged as possibly containing contact details. The remaining reviews still need to be checked manually for relevance and personal information.
 
-The dataset does not need ready-made topics or summaries. Creating and evaluating those results is part of the thesis. This thesis will use approximately 100–300 reviews from one app. The final number will be agreed with the supervisor after a small trial.
 
 ## Progress
 
