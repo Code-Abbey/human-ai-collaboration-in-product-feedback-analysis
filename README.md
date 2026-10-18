@@ -56,4 +56,4 @@ The sampling script creates a reproducible local candidate list for screening. I
 
 ## Research discussion
 
-Feedback on the dataset choice, sampling and evaluation design is welcome through the repository's [Issues](https://github.com/Code-Abbey/thesis-app-review-feasibility/issues).
+Feedback on the dataset choice, sampling and evaluation design can be added to the [research discussion](https://github.com/Code-Abbey/thesis-app-review-feasibility/issues/1).
