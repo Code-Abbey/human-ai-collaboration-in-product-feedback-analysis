@@ -4,13 +4,19 @@
 
 ## About the project
 
-My thesis explores whether human checking can improve AI-generated analysis of app reviews. I will compare three ways of working:
+My thesis compares three ways of analysing app reviews:
 
 1. A person analyses the reviews without AI.
 2. AI analyses the reviews, and its results are used without human editing.
 3. A person checks and edits the AI-generated results.
 
-Each approach will produce a report with the same sections: main topics, short summaries, references to the supporting reviews, and suggested app improvements. A topic is a group of reviews about a similar issue, such as login problems. I will compare report quality and the time spent on the task.
+Each approach will produce a report with the same sections: main topics, short summaries, references to the supporting reviews, and suggested app improvements. A topic is a group of reviews about a similar issue, such as login problems. I will compare clarity, usefulness, actionability and relevance to the original reviews. Participants will also rate how demanding the task felt, and I will record the time spent.
+
+## Main research question
+
+How does a Human-in-the-Loop AI workflow compare with manual analysis and AI-only analysis in producing clear, useful, and actionable product feedback insights from app reviews?
+
+The [research questions and objectives](docs/research-questions.md) contain the full wording submitted to my supervisor.
 
 ## Dataset
 
@@ -34,6 +40,7 @@ The original downloaded review files are stored locally and are not uploaded to 
 
 ## Project documents
 
+- [Research questions and objectives](docs/research-questions.md)
 - [Study plan](docs/study-plan.md)
 - [Why the datasets fit the project](docs/decision.md)
 - Dataset notes: [Kahoot!](docs/dataset-cards/kahoot.md), [Spotify and Zoom](docs/dataset-cards/top15.md), [RARE](docs/dataset-cards/rare.md)

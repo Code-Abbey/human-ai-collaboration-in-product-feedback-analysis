@@ -8,6 +8,7 @@ Updated 18 October 2026.
 - Checked the number of reviews, available fields, missing text and repeated reviews.
 - Recorded the source links, permissions and academic references.
 - Checked how the reviews can support the planned comparison.
+- Aligned the study plan with the submitted research questions and five objectives.
 
 ## Next steps
 
@@ -15,6 +16,6 @@ Updated 18 October 2026.
 2. Select the reviews for the study.
 3. Build the AI analysis tool and a simple way for a person to edit its results.
 4. Run the manual, AI-only and human-checked tasks.
-5. Compare report quality, time spent and the changes made.
+5. Compare report clarity, usefulness, actionability and relevance, and summarise expert comments, perceived workload, time spent and human refinements.
 
 The main analysis and participant evaluation have not yet been completed. The current findings concern dataset suitability and preparation.

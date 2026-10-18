@@ -1,13 +1,15 @@
 # Why the datasets fit the project
 
-The project needs written reviews from one app. The reviews must contain enough useful feedback to identify common topics, write summaries and suggest app improvements. Existing labels or summaries are not required.
+The [research questions and objectives](research-questions.md) require written reviews from one app. The reviews must contain enough useful feedback to identify common topics, write summaries and suggest app improvements. Existing labels or summaries are not required.
 
 | Part of the project | What the dataset provides |
 |---|---|
 | Manual analysis | Reviews that a person can read and group. |
 | AI analysis | The same review text as input to the AI. |
-| Human corrections | Original reviews that a person can use to check the AI-generated categories, topics and summaries. |
-| Report evaluation | Evidence that reviewers can use to judge the reports. |
+| Human refinements | Original reviews that a person can use to check, edit, merge or split AI-generated outputs. |
+| Expert report evaluation | Evidence for rating clarity, usefulness, actionability and relevance to the original reviews. |
+
+Participants' perceived workload and the types of changes they make will be recorded during the study. These measures do not need to be included in the original dataset.
 
 ## Proposed choice
 
@@ -23,4 +25,4 @@ The downloaded Spotify and Zoom files do not include review dates. This limits a
 
 ## Next decision
 
-A small trial using 30–50 reviews will help determine which app to use and how to select suitable reviews. I will then prepare the final review groups. The available data support the proposed work. The study will examine whether human checking improves the results.
+A small trial using 30–50 reviews will help determine which app to use and how to select suitable reviews. I will then prepare the final review groups. The available data support the proposed work. The study will compare the three approaches using the submitted research questions.
