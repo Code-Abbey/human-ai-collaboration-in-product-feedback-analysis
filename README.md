@@ -1,7 +1,8 @@
 # Human-AI Collaboration in Product Feedback Analysis: Evaluating AI-Generated Themes, Summaries, and Human Refinement
 
-**Bachelor's thesis
-Abiodun Michael Adefusi**
+**Bachelor's thesis**
+
+**Abiodun Michael Adefusi**
 
 ## About the project
 
