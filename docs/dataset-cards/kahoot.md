@@ -14,7 +14,7 @@ Inspected the two `app_Kahoot_Play_Create_Quizzes` Parquet shards at commit `327
 |---|---|---|
 | Review text and rating | `review_content`, `review_score` | Main input; ratings are context, not human sentiment labels |
 | Review history | `review_at`, `review_reviewCreatedVersion`, `review_appVersion` | Optional time/version analysis; 9,418 missing version values |
-| Engagement | `review_thumbsUpCount` | Optional descriptive variable; do not equate with importance |
+| Engagement | `review_thumbsUpCount` | Optional descriptive variable; not a measure of issue importance |
 | Identifiers | `review_reviewId`, `review_userName`, `review_userImage` | Exclude from shared/annotation exports |
 | Developer replies | `review_replyContent`, `review_repliedAt` | Exclude from the initial experiment to avoid extra evidence/leakage |
 | App metadata | `app_info_json`, descriptions, developer email, app ratings/install counts | Exclude repeated metadata from text modelling |
@@ -32,6 +32,6 @@ The complete column list, inferred types and null counts are in [audit.json](../
 
 ## Uses and limits
 
-Recommended for a 150–300-review pilot of category correction, theme grouping and evidence-linked summary editing. There is ample capacity to reserve a development set and untouched evaluation batches. Select a historical window deliberately if the research question concerns a particular product period. The snapshot cannot establish today's issue prevalence, and user-review writers are not a representative user sample.
+Recommended for a 150–300-review pilot of category correction, theme grouping and evidence-linked summary editing. There is ample capacity to reserve a development set and untouched evaluation batches. A historical window can be selected if the research question concerns a particular product period. The snapshot cannot establish today's issue prevalence, and user-review writers are not a representative user sample.
 
-Declared data licence: **CC BY-NC 4.0**. The MIT badge concerns source code; it must not be applied to review data. Retain attribution, licence link and transformation notes for derivatives. See [rights and privacy](../rights-and-privacy.md).
+Declared data licence: **CC BY-NC 4.0**. The MIT badge concerns source code. Data attribution, the licence link and transformation records are retained separately. See [rights and privacy](../rights-and-privacy.md).

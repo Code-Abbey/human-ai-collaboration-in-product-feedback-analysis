@@ -24,12 +24,12 @@ Each gold split has 500 rows per app: Amazon, Candy Crush Saga, Duolingo, Google
 
 After Unicode NFKC, casefold and whitespace normalisation, **130 distinct source-review texts occur in both gold training and gold testing**. Within-split duplicate excess is 126 training rows and 12 testing rows. Silver shares 155 distinct source texts with gold training and eight with gold testing. These are text matches, not estimates of reviewer overlap; near-duplicate overlap is unmeasured.
 
-No gold input/target pairs are identical after this normalisation; two silver pairs are. Changed wording is not evidence of improved factual accuracy. Evaluate whether the target preserves intent and avoids invented details.
+No gold input/target pairs are identical after this normalisation; two silver pairs are. Changed wording is not evidence of improved factual accuracy. A refinement evaluation would need to assess preservation of intent and unsupported additions.
 
 ## Recommended use
 
-Use as a secondary benchmark only if individual-review refinement becomes an explicit research question. Group exact and near-duplicate original reviews before assigning splits; keep all variants and targets of a source review in one split. Publish the grouping rules and counts. If keeping the published test split for comparability, remove overlaps from training and report both the change and resulting evaluation limits.
+RARE would serve as a secondary benchmark if individual-review refinement becomes an explicit research question. Such an experiment would require grouping exact and near-duplicate originals before splitting and reporting the grouping rules and counts. Retaining the published test set would require removing overlapping texts from training and documenting the resulting evaluation limits.
 
-Treat silver labels as machine-generated supervision, not independent gold evaluation. Do not combine RARE with Spotify Top 15 without checking cross-source duplication. The aggregate audit does not yet perform that cross-source check.
+Silver targets provide machine-generated supervision rather than independent human evaluation. Combining RARE with Spotify Top 15 would require cross-source duplication checks, which are outside the current audit.
 
-Declared dataset licence: **CC BY 4.0**. Attribute dataset and paper and record transformations. Raw text remains excluded from Git because licence availability alone does not resolve privacy. [Rights details](../rights-and-privacy.md).
+Declared dataset licence: **CC BY 4.0**. Dataset and paper attribution and transformation records are retained. Raw text remains excluded from Git because licence availability alone does not resolve privacy. [Rights details](../rights-and-privacy.md).

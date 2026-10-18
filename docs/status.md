@@ -1,27 +1,28 @@
-# Current status and next steps
+# Research progress
 
-As of 18 October 2026.
+Updated 18 October 2026.
 
-## Complete
+## Completed preparation
 
-- Resolved source datasets and linked academic publications.
-- Downloaded and parsed both Kahoot! shards, all Top 15 rows and all usable RARE workbooks.
-- Verified downloaded SHA-256 checksums and Zenodo publisher MD5 checksums.
-- Audited schemas, nulls, ratings, text lengths, duplicate text, dates where available, privacy regex flags and RARE split overlap.
-- Prepared reproducible local-only 300-candidate pilot lists for Kahoot!, Spotify and Zoom.
-- Documented source licences, discrepancies, task suitability and a proposed human-in-the-loop evaluation.
+- Original data sources and associated academic references have been identified.
+- Both Kahoot! files, the complete Top 15 CSV and the usable RARE workbooks have been downloaded and parsed.
+- File integrity, schemas, missing values, ratings, text lengths, exact normalised duplicates and available dates have been checked.
+- Initial candidate lists have been prepared locally for Kahoot!, Spotify and Zoom.
+- Dataset requirements have been mapped to the existing three-workflow protocol and report-evaluation rubric.
 
-See [verification log](../reports/verification.md) for executed checks and [measured audit](../reports/audit-summary.md) for counts.
+The measured results are available in the [audit summary](../reports/audit-summary.md), [complete audit](../reports/audit.json) and [verification report](../reports/verification.md).
 
-## Pending research decisions
+## Research in progress
 
-1. **Abiodun + Moh:** confirm Kahoot! versus Spotify, final research question and how the proposed conditions align with the approved concept.
-2. **Abiodun:** screen 30–50 pilot candidates, draft a codebook, estimate annotation effort and document exclusions. The prepared candidate sets are not yet approved samples.
-3. **Abiodun + Moh:** select annotators and independent evaluators; finalise sampling, metrics, batch design and feasibility of inference.
-4. **University process:** confirm storage, model-service handling and any required ethics/data review; set retention dates.
-5. **Implementation:** run baselines only after data/splits are frozen, then log human edits and conduct blinded evaluation.
-6. **Sharing:** obtain Moh's GitHub username, invite him and verify acceptance. Owner access does not prove supervisor access.
+The current proposal is to use Kahoot! as the primary case study. Spotify and Zoom remain viable alternatives. The final app choice will follow a screening pilot that assesses the amount of substantive product feedback and the practical effort required to prepare comparable batches.
 
-## Explicitly not done
+## Planned stages
 
-No full GenAI-EdSent audit, exhaustive language or privacy review, near-duplicate clustering, cross-source deduplication, category annotation, model training, summary generation or human-benefit experiment. No source authors contacted. No real review text committed to Git. The files describe historical snapshots, not current app quality.
+1. Screen a pilot sample and refine the inclusion criteria.
+2. Select one app, prepare the final review corpus and fix the experimental batches.
+3. Implement the common report format, AI pipeline and H1/H2/H3 intervention interface.
+4. Pilot analyst instructions, task timing and evaluation anchors.
+5. Conduct manual, AI-only and human-in-the-loop analysis under the agreed protocol.
+6. Collect independent expert ratings, analyse intervention logs and compare quality and effort.
+
+No real-data report-generation experiment or participant evaluation has yet been completed in this repository. The available evidence currently supports dataset feasibility and preparation, not an empirical conclusion about the benefit of human refinement.

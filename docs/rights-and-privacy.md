@@ -1,28 +1,25 @@
-# Source rights and research-data handling
+# Data provenance, licences and handling
 
-Reviewed 18 October 2026. This records the publisher's terms and our handling decisions; it is not a claim to own user-written reviews.
+Assessment date: 18 October 2026.
 
-| Source | Observed declaration | Repository decision |
+| Dataset | Source declaration | Research handling |
 |---|---|---|
-| [GenAI-EdSent](https://huggingface.co/datasets/Erfan-Nourbakhsh/GenAI-EdSent) | CC BY-NC 4.0 for data; MIT for code | Non-commercial research; original download route; no raw review redistribution |
-| [Top 15](https://zenodo.org/records/10204232) | API: CC BY 4.0; prose: scientific research/non-commercial | Preserve both statements; use within their common non-commercial scope; clarify before broader reuse |
-| [RARE v2](https://zenodo.org/records/13939427) | CC BY 4.0 | Attribute source/paper; download locally; keep real text out of Git |
+| [GenAI-EdSent](https://huggingface.co/datasets/Erfan-Nourbakhsh/GenAI-EdSent) | CC BY-NC 4.0 for data; MIT for code | Non-commercial thesis research; attribution and version recorded |
+| [Top 15](https://zenodo.org/records/10204232) | CC BY 4.0 in metadata; scientific/non-commercial use in the description | Use restricted to non-commercial research while the differing declarations remain unresolved |
+| [RARE v2](https://zenodo.org/records/13939427) | CC BY 4.0 | Source attribution and transformation records retained |
 
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) require attribution and indication of changes. NC additionally limits commercial use. These licences do not guarantee all necessary privacy, publicity or other third-party permissions. Dataset availability is not blanket permission to republish personal information. An MIT code licence does not replace the dataset licence.
+The relevant licence links are [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Source licences apply to third-party data independently of the repository's code licence. Other rights, including privacy rights, may still apply to review text.
 
-## Practical handling
+## Data minimisation
 
-- Download only published dataset files; no new Google Play scraping is used.
-- Keep immutable originals under ignored `data/raw/`. Never force-add these files to Git.
-- Keep only text and rating in pilot annotation exports. Exclude source usernames, avatars, review IDs, replies and developer contact fields.
-- Manually review text for names, contact details, school/workplace clues, sensitive stories and other identifiable content. Regex screening catches only some patterns. Education-app reviews may involve children; do not infer or annotate reviewer ages or identities.
-- Generated candidate IDs are deterministic text hashes for local tracking, **not anonymisation**. Text can be searchable even after removing names. Candidate IDs and text remain local-only.
-- Store annotations on the university-approved restricted storage chosen for the project. Do not upload them to third-party LLM services until the data-handling arrangement is agreed. No such uploads occurred in this work.
-- Prefer aggregate counts and paraphrased examples in the thesis; assess any necessary verbatim quotation separately. Preserve attribution without identifying individual reviewers.
-- Record exclusions/redactions, who can access data and a retention/deletion date in the study protocol before recruitment or annotation. No university-specific retention rule is invented here.
+The public repository contains source metadata, scripts, aggregate statistics and research documentation. Raw reviews, real-text candidate files and participant records are excluded from Git. The original data remain reproducible through versioned download URLs and checksums.
 
-## Attribution and derivatives
+Pilot annotation exports retain review text, rating and a local candidate identifier. Usernames, avatars, original review IDs, developer replies and developer contact fields are omitted. Deterministic candidate identifiers support tracking but do not anonymise the text.
 
-The manifest identifies original sources and exact downloaded bytes. The audit reports derived statistics. Candidate selection normalises text for duplicate detection, filters rows and removes metadata columns; source text itself is retained unchanged locally. Any later redaction must be logged. Cite the dataset record and its linked paper from `references/references.bib`.
+The automatic screening expression flags possible email addresses, URLs and telephone numbers. Manual screening remains necessary for names, contextual identifiers and sensitive content. Review text will be checked before inclusion in study materials or submission to an external model service. The final protocol will specify storage, access and retention arrangements for the selected corpus and participant records.
 
-The repository contains our scripts/documentation and source metadata, not a sublicense of third-party review data. Private visibility does not remove source obligations. If publication is later requested, review the tracked files and history before changing visibility.
+## Transformation records
+
+Original downloaded files remain unchanged. Duplicate detection uses Unicode, case and whitespace normalisation. Candidate selection filters rows and removes metadata columns while preserving the selected source text locally. Subsequent redactions and exclusions will be recorded alongside the study data.
+
+The dataset and associated publication are cited separately in the [bibliography](../references/references.bib). Published results will use aggregate findings and appropriately reviewed examples.
