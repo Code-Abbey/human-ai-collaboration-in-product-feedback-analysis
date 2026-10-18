@@ -1,0 +1,43 @@
+{
+  "retrieved_on": "2026-10-18",
+  "files": [
+    {
+      "dataset": "GenAI-EdSent Kahoot subset",
+      "path": "data/raw/kahoot-0.parquet",
+      "url": "https://huggingface.co/datasets/Erfan-Nourbakhsh/GenAI-EdSent/resolve/32783444ddc6b56cc95996d77d0923d6eb075164/data/app_Kahoot_Play_Create_Quizzes-00000-of-00002.parquet",
+      "revision": "32783444ddc6b56cc95996d77d0923d6eb075164",
+      "declared_license": "CC-BY-NC-4.0",
+      "sha256": "fcf1a585dc98cbfc5b1b1f2a8610f2b7883747ef170f99c10645a7708764f034",
+      "bytes": 3139658
+    },
+    {
+      "dataset": "GenAI-EdSent Kahoot subset",
+      "path": "data/raw/kahoot-1.parquet",
+      "url": "https://huggingface.co/datasets/Erfan-Nourbakhsh/GenAI-EdSent/resolve/32783444ddc6b56cc95996d77d0923d6eb075164/data/app_Kahoot_Play_Create_Quizzes-00001-of-00002.parquet",
+      "revision": "32783444ddc6b56cc95996d77d0923d6eb075164",
+      "declared_license": "CC-BY-NC-4.0",
+      "sha256": "9903170a6bb7c4dd75bda8a323d6bf31babf42265c779bebaae408a37118be68",
+      "bytes": 2349287
+    },
+    {
+      "dataset": "User Feedback Dataset from the Top 15 Downloaded Mobile Applications",
+      "path": "data/raw/top15.csv",
+      "url": "https://zenodo.org/api/records/10204232/files/UserFeedbackData.csv/content",
+      "doi": "10.5281/zenodo.10204232",
+      "declared_license": "cc-by-4.0",
+      "publisher_checksum": "md5:4a036bdbfd85aed2947a7aff443230e3",
+      "sha256": "2144caa213be979f48f943b1bf91149857d2089e059d3c4b5365238a1bd061e9",
+      "bytes": 5967722
+    },
+    {
+      "dataset": "RARE((Repository for App review REfinement)",
+      "path": "data/raw/rare.zip",
+      "url": "https://zenodo.org/api/records/13939427/files/RARE_Dataset.zip/content",
+      "doi": "10.5281/zenodo.13939427",
+      "declared_license": "cc-by-4.0",
+      "publisher_checksum": "md5:a5b2de0cdb837eac06f80e7052971f29",
+      "sha256": "c4baa16e8db0e3fdfa41cc6336d55f2bff24d3ddfa83c27d963b8a7ffb1098d2",
+      "bytes": 4841012
+    }
+  ]
+}

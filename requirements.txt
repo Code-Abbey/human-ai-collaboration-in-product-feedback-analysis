@@ -1,0 +1,9 @@
+pandas==2.3.3
+numpy==2.0.2
+pyarrow==21.0.0
+openpyxl==3.1.5
+et-xmlfile==2.0.0
+python-dateutil==2.9.0.post0
+pytz==2026.5
+tzdata==2026.5
+six==1.17.0

@@ -1,0 +1,57 @@
+{
+  "checked_on": "2026-10-18",
+  "huggingface": {
+    "source": "https://huggingface.co/api/datasets/Erfan-Nourbakhsh/GenAI-EdSent",
+    "revision": "32783444ddc6b56cc95996d77d0923d6eb075164",
+    "declared_license": "cc-by-nc-4.0",
+    "reported_train_rows": 480831,
+    "reported_app_splits": 22
+  },
+  "zenodo": {
+    "top15": {
+      "title": "User Feedback Dataset from the Top 15 Downloaded Mobile Applications",
+      "doi": "10.5281/zenodo.10204232",
+      "publication_date": "2023-11-24",
+      "creators": [
+        {
+          "name": "Asnawi, Mohammad Hamid",
+          "affiliation": "Padjadjaran University",
+          "orcid": "0000-0002-3543-1703"
+        },
+        {
+          "name": "Pravitasari, Anindya Apriliyanti",
+          "affiliation": "Padjadjaran University",
+          "orcid": "0000-0003-4873-3169"
+        },
+        {
+          "name": "Herawan, Tutut",
+          "affiliation": "University of Malaya",
+          "orcid": "0000-0001-9262-9137"
+        },
+        {
+          "name": "hendrawati, Triyani",
+          "affiliation": "Padjadjaran University",
+          "orcid": "0000-0001-7813-3370"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "description_terms_note": "Description states scientific research and non-commercial purposes; metadata says CC BY 4.0."
+    },
+    "rare": {
+      "title": "RARE((Repository for App review REfinement)",
+      "doi": "10.5281/zenodo.13939427",
+      "publication_date": "2024-10-16",
+      "creators": [
+        {
+          "name": "Singh, Amrita",
+          "affiliation": "TCS Research"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    }
+  }
+}

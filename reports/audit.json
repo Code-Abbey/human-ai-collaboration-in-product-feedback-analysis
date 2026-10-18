@@ -1,0 +1,412 @@
+{
+  "definitions": {
+    "duplicates": "Excess rows beyond the first, including blank text; not a fraud estimate.",
+    "normalisation": "Unicode NFKC, casefold, whitespace collapse and strip; punctuation retained.",
+    "eligible": "Nonblank, >=5 whitespace tokens, first normalised text occurrence, no regex email/URL/phone flag. No language or manual privacy validation.",
+    "privacy": "Regex flags are incomplete and may contain false positives. Names and personal stories require manual review."
+  },
+  "datasets": {
+    "kahoot": {
+      "rows": 34147,
+      "columns": {
+        "app_name": "object",
+        "source_file": "object",
+        "review_reviewId": "object",
+        "review_userName": "object",
+        "review_userImage": "object",
+        "review_content": "object",
+        "review_score": "int64",
+        "review_thumbsUpCount": "int64",
+        "review_reviewCreatedVersion": "object",
+        "review_at": "object",
+        "review_replyContent": "object",
+        "review_repliedAt": "object",
+        "review_appVersion": "object",
+        "app_info_json": "object",
+        "app_title": "object",
+        "app_summary": "object",
+        "app_description": "object",
+        "app_descriptionHTML": "object",
+        "app_genre": "object",
+        "app_genre_id": "object",
+        "app_developer": "object",
+        "app_developer_email": "object",
+        "app_installs": "object",
+        "app_minInstalls": "int64",
+        "app_realInstalls": "int64",
+        "app_score": "float64",
+        "app_ratings": "int64",
+        "app_reviews_count": "int64",
+        "app_price": "int64",
+        "app_free": "bool",
+        "app_offersIAP": "bool",
+        "app_inAppProductPrice": "object",
+        "app_appId": "object",
+        "app_url": "object",
+        "app_icon": "object",
+        "app_headerImage": "object",
+        "app_released": "object",
+        "app_lastUpdatedOn": "object",
+        "app_updated_ts": "int64",
+        "app_version": "object"
+      },
+      "nulls": {
+        "app_name": 0,
+        "source_file": 0,
+        "review_reviewId": 0,
+        "review_userName": 0,
+        "review_userImage": 0,
+        "review_content": 5,
+        "review_score": 0,
+        "review_thumbsUpCount": 0,
+        "review_reviewCreatedVersion": 9418,
+        "review_at": 0,
+        "review_replyContent": 30727,
+        "review_repliedAt": 30727,
+        "review_appVersion": 9418,
+        "app_info_json": 0,
+        "app_title": 0,
+        "app_summary": 0,
+        "app_description": 0,
+        "app_descriptionHTML": 0,
+        "app_genre": 0,
+        "app_genre_id": 0,
+        "app_developer": 0,
+        "app_developer_email": 0,
+        "app_installs": 0,
+        "app_minInstalls": 0,
+        "app_realInstalls": 0,
+        "app_score": 0,
+        "app_ratings": 0,
+        "app_reviews_count": 0,
+        "app_price": 0,
+        "app_free": 0,
+        "app_offersIAP": 0,
+        "app_inAppProductPrice": 0,
+        "app_appId": 0,
+        "app_url": 0,
+        "app_icon": 0,
+        "app_headerImage": 0,
+        "app_released": 0,
+        "app_lastUpdatedOn": 0,
+        "app_updated_ts": 0,
+        "app_version": 0
+      },
+      "text_column": "review_content",
+      "blank_text": 5,
+      "exact_duplicate_text_excess": 8883,
+      "normalised_duplicate_text_excess": 9905,
+      "under_5_whitespace_tokens": 18873,
+      "token_length_quantiles": {
+        "0": 0.0,
+        "0.25": 2.0,
+        "0.5": 4.0,
+        "0.75": 9.0,
+        "0.95": 28.0,
+        "1": 435.0
+      },
+      "potential_email_url_phone_rows": 7,
+      "mechanically_eligible_rows": 15143,
+      "rating_counts": {
+        "1": 4866,
+        "2": 796,
+        "3": 1354,
+        "4": 2764,
+        "5": 24367
+      },
+      "invalid_or_missing_ratings": 0,
+      "date_range": [
+        "2013-12-16 06:44:22+00:00",
+        "2025-08-12 18:24:03+00:00"
+      ],
+      "missing_or_unparseable_dates": 0,
+      "duplicate_id_excess": 0,
+      "app_counts": {
+        "Kahoot! Play & Create Quizzes": 34147
+      }
+    },
+    "top15": {
+      "rows": 15000,
+      "columns": {
+        "review_id": "object",
+        "content": "object",
+        "score": "int64",
+        "TU_count": "int64",
+        "app_id": "object",
+        "app_name": "object",
+        "RC_ver": "object"
+      },
+      "nulls": {
+        "review_id": 0,
+        "content": 0,
+        "score": 0,
+        "TU_count": 0,
+        "app_id": 0,
+        "app_name": 0,
+        "RC_ver": 27
+      },
+      "text_column": "content",
+      "blank_text": 0,
+      "exact_duplicate_text_excess": 16,
+      "normalised_duplicate_text_excess": 17,
+      "under_5_whitespace_tokens": 0,
+      "token_length_quantiles": {
+        "0": 6.0,
+        "0.25": 47.0,
+        "0.5": 65.0,
+        "0.75": 83.0,
+        "0.95": 96.0,
+        "1": 294.0
+      },
+      "potential_email_url_phone_rows": 15,
+      "mechanically_eligible_rows": 14968,
+      "rating_counts": {
+        "1": 6311,
+        "2": 2270,
+        "3": 2101,
+        "4": 2076,
+        "5": 2242
+      },
+      "invalid_or_missing_ratings": 0,
+      "duplicate_id_excess": 0,
+      "app_counts": {
+        "TikTok": 1000,
+        "Instagram": 1000,
+        "Facebook": 1000,
+        "WhatsApp": 1000,
+        "Telegram": 1000,
+        "Zoom": 1000,
+        "Snapchat": 1000,
+        "Facebook Messenger": 1000,
+        "CapCut": 1000,
+        "Spotify": 1000,
+        "YouTube": 1000,
+        "HBO Now": 1000,
+        "Cash App": 1000,
+        "Subway Surfers": 1000,
+        "Roblox": 1000
+      }
+    },
+    "spotify": {
+      "rows": 1000,
+      "columns": {
+        "review_id": "object",
+        "content": "object",
+        "score": "int64",
+        "TU_count": "int64",
+        "app_id": "object",
+        "app_name": "object",
+        "RC_ver": "object"
+      },
+      "nulls": {
+        "review_id": 0,
+        "content": 0,
+        "score": 0,
+        "TU_count": 0,
+        "app_id": 0,
+        "app_name": 0,
+        "RC_ver": 0
+      },
+      "text_column": "content",
+      "blank_text": 0,
+      "exact_duplicate_text_excess": 0,
+      "normalised_duplicate_text_excess": 0,
+      "under_5_whitespace_tokens": 0,
+      "token_length_quantiles": {
+        "0": 43.0,
+        "0.25": 69.75,
+        "0.5": 81.0,
+        "0.75": 90.0,
+        "0.95": 98.0,
+        "1": 105.0
+      },
+      "potential_email_url_phone_rows": 0,
+      "mechanically_eligible_rows": 1000,
+      "rating_counts": {
+        "1": 451,
+        "2": 197,
+        "3": 164,
+        "4": 104,
+        "5": 84
+      },
+      "invalid_or_missing_ratings": 0,
+      "duplicate_id_excess": 0
+    },
+    "zoom": {
+      "rows": 1000,
+      "columns": {
+        "review_id": "object",
+        "content": "object",
+        "score": "int64",
+        "TU_count": "int64",
+        "app_id": "object",
+        "app_name": "object",
+        "RC_ver": "object"
+      },
+      "nulls": {
+        "review_id": 0,
+        "content": 0,
+        "score": 0,
+        "TU_count": 0,
+        "app_id": 0,
+        "app_name": 0,
+        "RC_ver": 24
+      },
+      "text_column": "content",
+      "blank_text": 0,
+      "exact_duplicate_text_excess": 1,
+      "normalised_duplicate_text_excess": 1,
+      "under_5_whitespace_tokens": 0,
+      "token_length_quantiles": {
+        "0": 6.0,
+        "0.25": 25.0,
+        "0.5": 39.0,
+        "0.75": 62.25,
+        "0.95": 88.0,
+        "1": 294.0
+      },
+      "potential_email_url_phone_rows": 2,
+      "mechanically_eligible_rows": 997,
+      "rating_counts": {
+        "1": 370,
+        "2": 126,
+        "3": 151,
+        "4": 137,
+        "5": 216
+      },
+      "invalid_or_missing_ratings": 0,
+      "duplicate_id_excess": 0
+    },
+    "Gold_Corpus_5k_Testing": {
+      "rows": 5000,
+      "columns": {
+        "App_Name": "object",
+        "Extracted_Review": "object",
+        "Gold_Standard": "object"
+      },
+      "nulls": {
+        "App_Name": 0,
+        "Extracted_Review": 0,
+        "Gold_Standard": 0
+      },
+      "text_column": "Extracted_Review",
+      "blank_text": 0,
+      "exact_duplicate_text_excess": 12,
+      "normalised_duplicate_text_excess": 12,
+      "under_5_whitespace_tokens": 0,
+      "token_length_quantiles": {
+        "0": 11.0,
+        "0.25": 42.0,
+        "0.5": 62.0,
+        "0.75": 82.0,
+        "0.95": 95.0,
+        "1": 275.0
+      },
+      "potential_email_url_phone_rows": 1,
+      "mechanically_eligible_rows": 4987,
+      "app_counts": {
+        "Amazon": 500,
+        "Candy_Crush_Saga": 500,
+        "Duolingo": 500,
+        "Google_Fit": 500,
+        "Netflix": 500,
+        "Spotify": 500,
+        "Twitter": 500,
+        "Uber": 500,
+        "WhatsApp": 500,
+        "YouTube": 500
+      },
+      "target_blank": 0,
+      "unchanged_normalised_pairs": 0
+    },
+    "Gold_Corpus_5k_Training": {
+      "rows": 5000,
+      "columns": {
+        "App_Name": "object",
+        "Extracted_Review": "object",
+        "Gold_Standard": "object"
+      },
+      "nulls": {
+        "App_Name": 0,
+        "Extracted_Review": 0,
+        "Gold_Standard": 0
+      },
+      "text_column": "Extracted_Review",
+      "blank_text": 0,
+      "exact_duplicate_text_excess": 125,
+      "normalised_duplicate_text_excess": 126,
+      "under_5_whitespace_tokens": 0,
+      "token_length_quantiles": {
+        "0": 11.0,
+        "0.25": 54.0,
+        "0.5": 71.0,
+        "0.75": 86.0,
+        "0.95": 95.0,
+        "1": 109.0
+      },
+      "potential_email_url_phone_rows": 1,
+      "mechanically_eligible_rows": 4873,
+      "app_counts": {
+        "Amazon": 500,
+        "Candy_Crush_Saga": 500,
+        "Duolingo": 500,
+        "Google_Fit": 500,
+        "Netflix": 500,
+        "Spotify": 500,
+        "Twitter": 500,
+        "Uber": 500,
+        "WhatsApp": 500,
+        "YouTube": 500
+      },
+      "target_blank": 0,
+      "unchanged_normalised_pairs": 0
+    },
+    "Silver_Corpus_10k": {
+      "rows": 10000,
+      "columns": {
+        "App_Name": "object",
+        "Extracted_Review": "object",
+        "Refined_Review": "object"
+      },
+      "nulls": {
+        "App_Name": 0,
+        "Extracted_Review": 0,
+        "Refined_Review": 0
+      },
+      "text_column": "Extracted_Review",
+      "blank_text": 0,
+      "exact_duplicate_text_excess": 1,
+      "normalised_duplicate_text_excess": 2,
+      "under_5_whitespace_tokens": 0,
+      "token_length_quantiles": {
+        "0": 10.0,
+        "0.25": 32.0,
+        "0.5": 51.0,
+        "0.75": 78.0,
+        "0.95": 139.0,
+        "1": 286.0
+      },
+      "potential_email_url_phone_rows": 5,
+      "mechanically_eligible_rows": 9993,
+      "app_counts": {
+        "Amazon": 1000,
+        "Candy_Crush_Saga": 1000,
+        "Duolingo": 1000,
+        "Google_Fit": 1000,
+        "Netflix": 1000,
+        "Spotify": 1000,
+        "Twitter": 1000,
+        "Uber": 1000,
+        "WhatsAPP": 1000,
+        "YouTube": 1000
+      },
+      "target_blank": 0,
+      "unchanged_normalised_pairs": 2
+    }
+  },
+  "rare_overlap_unique_normalised_originals": {
+    "Gold_Corpus_5k_Testing vs Gold_Corpus_5k_Training": 130,
+    "Gold_Corpus_5k_Testing vs Silver_Corpus_10k": 8,
+    "Gold_Corpus_5k_Training vs Silver_Corpus_10k": 155
+  }
+}

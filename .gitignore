@@ -1,0 +1,9 @@
+data/raw/
+data/processed/
+data/annotation/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+reports/download-log.json
