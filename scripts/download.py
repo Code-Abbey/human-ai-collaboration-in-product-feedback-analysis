@@ -1,4 +1,4 @@
-"""Download pinned source files; refuse unacknowledged terms and checksum drift."""
+"""Download the recorded dataset versions and check that the files match their saved checksums."""
 import argparse
 import hashlib
 import json

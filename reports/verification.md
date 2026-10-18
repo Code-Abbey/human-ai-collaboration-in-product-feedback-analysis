@@ -3,7 +3,7 @@
 Date: 18 October 2026.
 
 - Both Kahoot! files, the Top 15 CSV and the RARE archive were downloaded and opened successfully.
-- File checksums matched the recorded values. The Zenodo files also matched the source's checksums.
+- File checksums matched the recorded values. The Zenodo files also matched the checksums published by the source.
 - Downloading the files again in a separate folder produced the same data-check results.
 - Local lists of 300 candidate reviews were prepared for Kahoot!, Spotify and Zoom.
 - Repeating the Kahoot! selection with the same settings produced the same list.
@@ -15,9 +15,9 @@ The recorded environment used Python 3.9.6 and the versions in `requirements.txt
 
 The first six selected reviews for each app were inspected: 18 reviews in total.
 
-- Kahoot! included general praise and an account-creation complaint.
-- Spotify included downloads, playback, advertising and interface feedback.
-- Zoom included login, meeting, audio/video and teaching feedback.
+- The Kahoot! examples included general praise and a complaint about creating an account.
+- The Spotify examples included feedback about downloads, playback, advertising and the interface.
+- The Zoom examples included feedback about logging in, meetings, sound, video and teaching.
 
 This small check helped identify possible uses. It does not establish how common each issue is. A larger manual screening sample is still needed.
 

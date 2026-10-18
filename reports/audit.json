@@ -1,9 +1,9 @@
 {
   "definitions": {
-    "duplicates": "Excess rows beyond the first, including blank text; not a fraud estimate.",
-    "normalisation": "Unicode NFKC, casefold, whitespace collapse and strip; punctuation retained.",
-    "eligible": "Nonblank, >=5 whitespace tokens, first normalised text occurrence, no regex email/URL/phone flag. No language or manual privacy validation.",
-    "privacy": "Regex flags are incomplete and may contain false positives. Names and personal stories require manual review."
+    "duplicates": "Repeated rows after the first occurrence, including repeated blank text. This count does not identify fake reviews.",
+    "normalisation": "Standardise character forms, ignore capitalisation, and remove extra spaces. Punctuation is kept.",
+    "eligible": "Reviews with text, at least five items separated by spaces, no earlier occurrence of the standardised text, and no automatic email, web-link or phone-number flag. Language, relevance and personal information still need manual checks.",
+    "privacy": "Automatic checks can miss personal information or flag harmless text. Names and personal stories still need manual review."
   },
   "datasets": {
     "kahoot": {

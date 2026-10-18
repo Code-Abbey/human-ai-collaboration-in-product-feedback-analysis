@@ -1,4 +1,4 @@
-"""Prepare deterministic, local-only pilot candidates, not an approved study sample."""
+"""Prepare a repeatable local list of reviews for manual screening before the study."""
 import argparse
 import hashlib
 import json
@@ -35,7 +35,7 @@ def main():
             row.update({'language_ok': None, 'privacy_ok': None, 'relevant': None, 'labels': [], 'split': None})
             f.write(json.dumps(row,ensure_ascii=False)+'\n')
     (folder/(args.app+'-sampling.json')).write_text(json.dumps({'app':args.app,'seed':args.seed,'n':args.n,'eligible':len(df),'method':'unstratified SHA256 deterministic ordering; manual screening pending','candidate_ids':selected.candidate_id.tolist()},indent=2)+'\n')
-    print(f'Wrote {len(selected)} unapproved candidates to {path.relative_to(ROOT)}. Kept out of Git.')
+    print(f'Saved {len(selected)} reviews for manual screening to {path.relative_to(ROOT)}. This file is excluded from Git.')
 
 if __name__ == '__main__':
     main()

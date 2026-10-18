@@ -1,26 +1,26 @@
 # Why the datasets fit the project
 
-The project needs written reviews from one app. The reviews must contain enough useful feedback to support topics, summaries and suggested improvements. Existing labels or summaries are not required.
+The project needs written reviews from one app. The reviews must contain enough useful feedback to identify common topics, write summaries and suggest app improvements. Existing labels or summaries are not required.
 
 | Part of the project | What the dataset provides |
 |---|---|
 | Manual analysis | Reviews that a person can read and group. |
 | AI analysis | The same review text as input to the AI. |
-| Human corrections | Original reviews to check the AI categories, topics and summaries. |
+| Human corrections | Original reviews that a person can use to check the AI-generated categories, topics and summaries. |
 | Report evaluation | Evidence that reviewers can use to judge the reports. |
 
 ## Proposed choice
 
-**Kahoot!** has enough reviews for the planned study and a small practice sample. The main task is selecting useful feedback from the many short or general comments.
+**Kahoot!** has enough reviews to select the planned study sample and a separate practice sample. The main task is selecting useful feedback from the many short or general comments.
 
 **Spotify** is a suitable alternative with 1,000 reviews. The initial examples include problems with downloads, playback and the interface.
 
-**Zoom** is another option. Initial examples include login, meeting and audio/video problems.
+**Zoom** is another option. The examples checked so far include login problems, meeting issues, and problems with sound or video.
 
-Spotify and Zoom have no review dates in these files. This limits analysis of changes over time, but does not prevent the planned report comparison.
+The downloaded Spotify and Zoom files do not include review dates. This limits analysis of changes over time, but does not prevent the planned report comparison.
 
-**RARE** contains original and rewritten reviews. It is useful background reading, but is not needed for the main study.
+**RARE** contains original and rewritten reviews. The related paper provides useful background, but the dataset is not needed for the main study.
 
 ## Next decision
 
-A small trial with 30–50 reviews will help confirm the app and selection rules. I will then prepare the final review groups. The available data support the proposed work; whether human checking improves the results will be answered by the study.
+A small trial using 30–50 reviews will help determine which app to use and how to select suitable reviews. I will then prepare the final review groups. The available data support the proposed work. The study will examine whether human checking improves the results.
