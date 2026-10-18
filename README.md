@@ -1,4 +1,4 @@
-# Human–AI Collaboration in Product Feedback Analysis
+# Human-AI Collaboration in Product Feedback Analysis: Evaluating AI-Generated Themes, Summaries, and Human Refinement
 
 **Bachelor's thesis research · Abiodun Michael Adefusi**
 
@@ -56,4 +56,4 @@ The sampling script creates a reproducible local candidate list for screening. I
 
 ## Research discussion
 
-Feedback on the dataset choice, sampling and evaluation design can be added to the [research discussion](https://github.com/Code-Abbey/thesis-app-review-feasibility/issues/1).
+Feedback on the dataset choice, sampling and evaluation design can be added to the [research discussion](https://github.com/Code-Abbey/human-ai-collaboration-in-product-feedback-analysis/issues/1).
