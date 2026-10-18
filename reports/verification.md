@@ -1,11 +1,13 @@
-# Checks completed
+# Earlier technical feasibility checks
 
-Date: 18 October 2026.
+Recorded: 18 October 2026.
+
+These checks were carried out during earlier automated source assessment. They do not mean that the researcher has downloaded the thesis dataset or completed the study preparation. The current research position is recorded in [progress and next steps](../docs/status.md).
 
 - Both Kahoot! files, the Top 15 CSV and the RARE archive were downloaded and opened successfully.
 - File checksums matched the recorded values. The Zenodo files also matched the checksums published by the source.
 - Downloading the files again in a separate folder produced the same data-check results.
-- Local lists of 300 candidate reviews were prepared for Kahoot!, Spotify and Zoom.
+- Local lists of 300 candidate reviews were generated for technical checking. This was an example script setting, not an agreed study size.
 - Repeating the Kahoot! selection with the same settings produced the same list.
 - Four automated tests passed, covering missing text, repeated text, invalid dates and changed file contents.
 

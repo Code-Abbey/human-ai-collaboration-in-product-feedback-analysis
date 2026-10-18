@@ -1,6 +1,6 @@
 # Data-check results
 
-These results were generated from the downloaded files using `scripts/audit.py`. They describe the available data before the final study sample is selected.
+These figures come from automated feasibility checks of source snapshots. They are preliminary supporting information, not a record of the researcher's completed thesis dataset or analysis. They do not set the study's sample size. The [progress page](../docs/status.md) records the current research stage.
 
 | Dataset | Total reviews | No text | Repeated text | Under 5 words | Possible contact details | Passing initial checks |
 |---|---:|---:|---:|---:|---:|---:|

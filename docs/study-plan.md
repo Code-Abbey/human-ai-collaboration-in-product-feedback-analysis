@@ -8,7 +8,7 @@ The full [research questions and objectives](research-questions.md) guide this s
 
 ## Dataset and study size
 
-Kahoot! reviews are the proposed dataset, with Spotify and Zoom as alternatives. In line with the concept, this thesis will use approximately 100–300 reviews from one app. The final number of reviews and their division into comparable groups will be agreed with the supervisor after a small trial.
+Kahoot! reviews are the proposed dataset, with Spotify and Zoom as alternatives. The thesis dataset has not yet been downloaded by the researcher. The final number of reviews is open and may be larger than the initial proposal in the concept. The sample size and division into comparable groups will be agreed with the supervisor after the selected dataset has been downloaded and inspected.
 
 Data preparation will remove repeated reviews and check the remaining text for relevance, readability and personal information. The groups should have a similar mix of review lengths, ratings and issues. Each review group will be analysed using all three approaches. A person who completes both a manual task and an AI-assisted task will receive different review groups, so they do not analyse the same reviews twice.
 
@@ -61,4 +61,4 @@ The number of analysts and the final number of expert reviewers will be agreed w
 
 The analysis will compare the six report-quality scores across the three approaches and summarise the experts' written comments. Where collected, refinement records, workload ratings and task times will provide further context. The comparison may show improvements, little difference or disadvantages from human refinement. Several ratings of the same report will be treated as opinions about that report, rather than as separate experiments.
 
-This is a small study of one app. Its results will show what happened in this case and may not apply to every app or user. Initial data checks have been completed. Report generation and evaluation have not yet been carried out.
+This is a small study of one app. Its results will show what happened in this case and may not apply to every app or user. Earlier automated source checks provide preliminary feasibility information. The researcher's dataset download, final data preparation, report generation and evaluation are still pending.

@@ -11,4 +11,4 @@ The concept proposes six months of work. These are project stages rather than fi
 | 5 | Compare manual, AI-only and Human-in-the-Loop analysis; collect expert ratings and comments. | Reports and evaluation data. |
 | 6 | Analyse the results, discuss limitations and complete the thesis. | The final written thesis. |
 
-Dataset preparation has started. The [progress page](status.md) records completed work separately from these planned stages.
+The current stage is planning and dataset selection. The researcher has not yet downloaded the thesis dataset. The [progress page](status.md) distinguishes the current position from these planned stages.

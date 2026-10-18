@@ -25,13 +25,13 @@ The [research questions and objectives](docs/research-questions.md) contain the 
 
 The proposed dataset is **Kahoot! reviews from GenAI-EdSent**. Spotify and Zoom are alternatives.
 
-| App | Reviews downloaded | Reviews passing the first checks |
+| App | Reviews in the source snapshot | Potential reviews after preliminary checks |
 |---|---:|---:|
 | Kahoot! | 34,147 | 15,143 |
 | Spotify | 1,000 | 1,000 |
 | Zoom | 1,000 | 997 |
 
-The initial checks exclude reviews with no text, reviews with fewer than five words, repeated text, and reviews flagged as possibly containing contact details. The remaining reviews still need to be checked manually for relevance and personal information.
+These figures come from preliminary checks of source snapshots. They do not represent the final thesis dataset. The checks exclude blank, very short or repeated text and possible contact details; manual checks will still be needed when the dataset is downloaded and prepared for the study.
 
 
 ## Project documents

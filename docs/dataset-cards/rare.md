@@ -4,6 +4,8 @@
 
 ## What it contains
 
+This is a reference dataset considered during earlier automated feasibility checks. It has not been downloaded by the researcher for the thesis.
+
 RARE contains pairs of original and rewritten app reviews from ten apps, including Spotify.
 
 - **10,000 gold pairs:** pairs checked by people, divided into 5,000 training examples and 5,000 test examples.

@@ -4,11 +4,13 @@
 
 ## What it contains
 
-The downloaded Kahoot! files contain **34,147 reviews**. They include review text, star ratings, dates, app versions and other app information. The observed review dates range from December 2013 to August 2025.
+The researcher has not yet downloaded this dataset for the thesis. The figures below describe the earlier source assessment.
+
+The Kahoot! source snapshot inspected during earlier automated feasibility checks contains **34,147 reviews**. They include review text, star ratings, dates, app versions and other app information. The observed review dates range from December 2013 to August 2025.
 
 The files do not contain ready-made topic labels or summaries. These will be produced during the thesis work.
 
-## Checks completed
+## Preliminary source checks
 
 - Five reviews have no text.
 - 9,905 rows contain text that has already appeared in an earlier row after standardising character forms, capitalisation and spacing.

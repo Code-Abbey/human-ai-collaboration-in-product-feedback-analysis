@@ -4,11 +4,13 @@
 
 ## What it contains
 
-The downloaded file has **15,000 reviews from 15 apps**, including **1,000 Spotify reviews** and **1,000 Zoom reviews**.
+The researcher has not yet downloaded this dataset for the thesis. The figures below describe the earlier source assessment.
+
+The source snapshot inspected during earlier automated feasibility checks has **15,000 reviews from 15 apps**, including **1,000 Spotify reviews** and **1,000 Zoom reviews**.
 
 Its seven columns contain the review identifier, review text, star rating, number of likes, app identifier, app name and app version. The file does not include review dates, topic labels or summaries.
 
-## Checks completed
+## Preliminary source checks
 
 | Check | Spotify | Zoom |
 |---|---:|---:|

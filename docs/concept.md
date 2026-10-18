@@ -22,7 +22,7 @@ A dashboard will allow users to correct classifications, rename, merge or split 
 
 ## Scope and evaluation
 
-The study will use approximately 100–300 reviews from a selected app. Kahoot! is the current proposal following the dataset checks; Spotify and Zoom are alternatives. The final dataset and evaluation details will be agreed with the supervisor.
+Kahoot! is a candidate dataset, with Spotify and Zoom as alternatives. The researcher has not yet downloaded the thesis dataset. The review count suggested in the concept was an initial proposal, not a fixed limit. The final number may be larger and will be agreed with the supervisor after the dataset has been selected and inspected.
 
 The three approaches will produce comparable feedback reports. Approximately 3–6 experts will assess the reports without being told which approach produced them. The proposed criteria are clarity, usefulness, actionability, relevance to the original reviews, completeness and overall quality. Human corrections, time spent and perceived workload will also be recorded where feasible.
 
