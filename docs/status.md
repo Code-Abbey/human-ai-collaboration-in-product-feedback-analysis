@@ -1,28 +1,20 @@
-# Research progress
+# Progress and next steps
 
 Updated 18 October 2026.
 
-## Completed preparation
+## Completed
 
-- Original data sources and associated academic references have been identified.
-- Both Kahoot! files, the complete Top 15 CSV and the usable RARE workbooks have been downloaded and parsed.
-- File integrity, schemas, missing values, ratings, text lengths, exact normalised duplicates and available dates have been checked.
-- Initial candidate lists have been prepared locally for Kahoot!, Spotify and Zoom.
-- Dataset requirements have been mapped to the existing three-workflow protocol and report-evaluation rubric.
+- Found and downloaded the candidate datasets.
+- Checked the number of reviews, available fields, missing text and repeated reviews.
+- Recorded the source links, permissions and academic references.
+- Checked how the reviews can support the planned comparison.
 
-The measured results are available in the [audit summary](../reports/audit-summary.md), [complete audit](../reports/audit.json) and [verification report](../reports/verification.md).
+## Next steps
 
-## Research in progress
+1. Try a small sample and confirm which app to use.
+2. Select the reviews for the study.
+3. Build the AI analysis and a simple way to edit its results.
+4. Run the manual, AI-only and human-checked tasks.
+5. Compare report quality, time spent and the changes made.
 
-The current proposal is to use Kahoot! as the primary case study. Spotify and Zoom remain viable alternatives. The final app choice will follow a screening pilot that assesses the amount of substantive product feedback and the practical effort required to prepare comparable batches.
-
-## Planned stages
-
-1. Screen a pilot sample and refine the inclusion criteria.
-2. Select one app, prepare the final review corpus and fix the experimental batches.
-3. Implement the common report format, AI pipeline and H1/H2/H3 intervention interface.
-4. Pilot analyst instructions, task timing and evaluation anchors.
-5. Conduct manual, AI-only and human-in-the-loop analysis under the agreed protocol.
-6. Collect independent expert ratings, analyse intervention logs and compare quality and effort.
-
-No real-data report-generation experiment or participant evaluation has yet been completed in this repository. The available evidence currently supports dataset feasibility and preparation, not an empirical conclusion about the benefit of human refinement.
+The main analysis and participant evaluation have not yet been completed. The current findings concern dataset suitability and preparation.

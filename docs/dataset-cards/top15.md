@@ -1,44 +1,29 @@
-# Top 15 mobile applications: Spotify and Zoom
+# Spotify and Zoom datasets
 
-## Provenance
+**Source:** [User Feedback Dataset from the Top 15 Downloaded Mobile Applications](https://doi.org/10.5281/zenodo.10204232).
 
-Original [Zenodo record 10204232](https://doi.org/10.5281/zenodo.10204232), version 1.0.0, published 24 November 2023. Creators: Mohammad Hamid Asnawi, Anindya Apriliyanti Pravitasari, Tutut Herawan and Triyani Hendrawati. Associated IEEE Access paper: [10.1109/ACCESS.2023.3332644](https://doi.org/10.1109/ACCESS.2023.3332644). The download manifest uses this original source.
+## What it contains
 
-## Actual contents
+The downloaded file has **15,000 reviews from 15 apps**, including **1,000 Spotify reviews** and **1,000 Zoom reviews**.
 
-Downloaded `UserFeedbackData.csv`: **15,000 rows, seven columns, exactly 1,000 per app**. Apps observed: TikTok, Instagram, Facebook, WhatsApp, Telegram, Zoom, Snapchat, Facebook Messenger, CapCut, Spotify, YouTube, **HBO Now**, Cash App, Subway Surfers and Roblox. The source description says HBO Max; the audit retains the actual HBO Now value.
+Its seven fields contain the review ID, text, star rating, number of likes, app ID, app name and app version. There are no review dates or ready-made topics and summaries.
 
-| Column | Meaning and observed type |
-|---|---|
-| `review_id` | Source review identifier; string |
-| `content` | Written review; string |
-| `score` | Integer star rating 1–5 |
-| `TU_count` | Integer thumbs-up count |
-| `app_id` | App identifier; string |
-| `app_name` | App label; string |
-| `RC_ver` | Review-created version; string, sometimes missing |
+## Checks completed
 
-There is **no date column, username column, human topic label or reference summary**. A review version is not a reliable substitute for its date. A measured review-date range cannot be established from this CSV.
-
-## Measured quality
-
-The complete file has no blank review text or repeated review IDs, 17 excess normalised duplicate texts, 27 missing `RC_ver` values and 15 regex privacy flags. Every text has at least five whitespace tokens; that alone does not prove a particular upstream filtering method.
-
-| Observation | Spotify | Zoom |
+| Check | Spotify | Zoom |
 |---|---:|---:|
-| Rows | 1,000 | 1,000 |
-| Normalised duplicate excess | 0 | 1 |
-| Missing version | 0 | 24 |
-| Regex privacy flags | 0 | 2 |
-| Mechanical candidates | 1,000 | 997 |
-| 1★ / 2★ / 3★ / 4★ / 5★ | 451 / 197 / 164 / 104 / 84 | 370 / 126 / 151 / 137 / 216 |
+| Reviews with missing text | 0 | 0 |
+| Repeated text after case/spacing checks | 0 | 1 |
+| Reviews passing the first selection rules | 1,000 | 997 |
 
-## Uses and limits
+Passing these rules does not replace manual checks for relevant content and personal information.
 
-Spotify offers a manageable alternative for analysing complaints and requests. Zoom could support a communication/workflow case study. Both have enough initial candidates for a 150–300-review study, subject to screening. The fixed per-app counts are useful for controlled comparisons but cannot estimate market-wide issue prevalence. The proposed main study will use one app to maintain a consistent product context.
+## Use in the thesis
 
-The 2023 publication and absent timestamps limit recency and temporal analysis. The planned expert report evaluation uses source reviews as evidence and does not require supplied category labels or reference summaries. An independently annotated set would be needed if classification accuracy is added as a separate technical outcome.
+Both apps have enough reviews for the proposed study. Initial examples cover downloads, playback and interface issues for Spotify, and login, meetings and audio/video for Zoom. These examples are not yet a full analysis.
 
-## Rights status
+Missing dates prevent reliable comparisons over time, but do not prevent a comparison of the three analysis approaches.
 
-The Zenodo API declares **CC BY 4.0**, while its description states scientific research and non-commercial use. This is a source-level ambiguity. The proposed use is non-commercial thesis research with both the dataset and paper cited. Broader redistribution or commercial reuse would require clarification. This repository provides a reproducible original-source download, not a copy of its review text. [Rights details](../rights-and-privacy.md).
+**Permissions:** the source lists CC BY 4.0, while its description also mentions non-commercial research. The proposed use is non-commercial thesis research; raw reviews are not republished here.
+
+The related paper is listed in the [references](../../references/README.md). Full field details and counts remain in the [data report](../../reports/audit.json).

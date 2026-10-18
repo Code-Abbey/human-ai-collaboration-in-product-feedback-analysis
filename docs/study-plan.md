@@ -1,63 +1,44 @@
-# Study plan: human refinement of product-feedback reports
+# Study plan
 
 ## Research question
 
-How does structured human-in-the-loop refinement affect the quality and efficiency of product-feedback insights compared with manual and AI-only analysis of app reviews?
+Does human checking improve the quality of AI-generated app-review reports, and how much time does it take?
 
-The study follows the three-workflow design in the existing thesis protocol. Each condition produces the same four-part report: top themes, short theme summaries, references to supporting source reviews, and proposed product improvement actions. The selected dataset supplies the reviews; producing and evaluating the analytical outputs is part of the thesis.
+## Data and scope
 
-## Study conditions
+I propose using Kahoot! reviews. Spotify and Zoom are alternatives. I will choose one app and prepare two or three similar groups of 50–75 reviews, giving around 100–225 reviews in total. A small trial will help decide the final size.
 
-| Condition | Procedure | Material retained |
-|---|---|---|
-| A: Manual | Analyst receives reviews and a blank report template, then produces the report without AI assistance | Final report and active analysis time |
-| B: AI-only | A fixed pipeline processes the reviews using recorded prompts, model settings and report format | Unedited output, configuration and system latency |
-| C: Human-in-the-loop | Analyst revises the AI output through the three intervention stages | Initial/final outputs, edits, reasons and active analysis time |
+I will remove repeated reviews, check that the text is relevant and understandable, and check for personal information. The groups should have a similar mix of review lengths, ratings and issues. The same groups will be used across the comparison, with task allocation arranged to reduce the effect of people remembering earlier reviews.
 
-The human intervention stages are:
+## Three approaches
 
-- **H1 — Classification:** correct review labels, including multiple labels for mixed feedback.
-- **H2 — Themes:** rename, merge, split or reorganise themes and move or remove review assignments.
-- **H3 — Summaries and actions:** improve specificity, correct unsupported claims and revise proposed improvements against source evidence.
+| Approach | What happens |
+|---|---|
+| Manual | A person reads the reviews and writes the report without AI. |
+| AI-only | AI produces the report using a fixed prompt and model. |
+| AI with human checking | A person checks the AI report and corrects it. |
 
-Corrections affect the current analysis session. Persistent feedback learning and model retraining are outside the proposed scope.
+Each report will contain the main topics, a short summary of each topic, references to supporting reviews, and suggested app improvements.
 
-## Materials and sampling
+During human checking, the person can correct review categories, reorganise topics, and edit summaries or suggestions. I will save the original and edited versions and record the main changes and time spent.
 
-The working protocol proposes two or three comparable batches of 50–75 reviews from one app, giving 100–225 study reviews. A separate development sample will support prompt and interface development. Final batch size will follow the content-screening and timing pilots.
+## Comparing the reports
 
-Kahoot! is the proposed case study, with Spotify and Zoom as alternatives. The screening process will check language, relevant product feedback, repeated or near-duplicate content and personal information. Batch matching will consider review length, issue variety and the distribution of ratings. Batch membership will be fixed before evaluation.
+Reviewers will read the reports alongside the source reviews. The reports will not identify which approach produced them. Reviewers will score them from 1 (poor) to 5 (very good).
 
-Existing sentiment labels and reference summaries are unnecessary. Ratings provide sampling context rather than ground truth for feedback categories. Stable internal IDs will connect each included review to its themes, summaries and proposed actions.
+| Question | What it checks |
+|---|---|
+| Are the findings supported by the reviews? | Accuracy and supporting evidence |
+| Are the suggested improvements clear and practical? | Practical value |
+| Is the report easy to understand? | Clarity |
+| Does it include the main issues? | Coverage |
 
-The repository's 300-review candidate exports support preparation. They are not the final experimental batches or an approved sample.
+The first two questions are the main measures. Reviewers will give a short reason for their scores. I will also compare the time spent and describe which changes people made to the AI results.
 
-## Participants and procedure
+The number of people taking part will be agreed with my supervisor after the trial. People should not assess their own reports. Where a person completes both manual and AI-assisted tasks, they will use different but similar review groups and the order of tasks will vary.
 
-The working target is four to six analysts producing manual and human-refined reports, with some replication across review batches. Three to six independent experts will evaluate the completed reports. These recruitment targets remain subject to feasibility and supervisory discussion.
+## Results and limits
 
-Where an analyst completes both manual and human-refined tasks, different matched batches and a counterbalanced order will reduce memory and order effects. Instructions, training and time limits will be standardised after a pilot. The AI-only output will be retained for each batch with its model and prompt configuration.
+I will present the scores, time spent and examples of useful or unsuccessful corrections. Several ratings of the same report will be treated as opinions about that report, rather than as separate experiments.
 
-Reports will receive neutral identifiers, and condition-specific traces will be removed before expert assessment. Evaluators will have access to the relevant source reviews. Analysts will not independently evaluate their own reports.
-
-## Evaluation
-
-The primary proposed outcomes remain **evidence support** and **actionability**, rated on anchored 1–5 scales. Clarity, usefulness and coverage are secondary outcomes.
-
-| Criterion | 1: Poor | 3: Adequate | 5: Excellent |
-|---|---|---|---|
-| Evidence support | Multiple unsupported or contradicted claims | Mostly grounded, with some unsupported claims | Claims and suggestions consistently supported by source-review references |
-| Actionability | Vague or impractical actions | Some feasible but underspecified steps | Concrete, feasible actions connected to review evidence |
-| Clarity | Difficult to understand or organise | Mostly understandable, with some ambiguity | Clear, coherent and concise |
-| Usefulness | Few insights relevant to product decisions | Some relevant concerns identified | Important product concerns are clearly prioritised |
-| Coverage | Many prominent issues omitted | Most key issues included | Main issues covered with little significant omission |
-
-Experts will record short reasons, supporting review IDs, unsupported claims and omitted themes. Human effort will be measured using active analysis/editing time and the number and type of interventions. System latency will be recorded separately.
-
-Classification accuracy may be an additional technical measure if an independently annotated reference set is created. It is not a prerequisite for the main expert evaluation of final reports.
-
-## Analysis and limitations
-
-The analysis will compare condition-level scores and variation between reports, examine evaluator agreement, and describe the types of human corrections. Multiple ratings of one report will not be treated as independent replications of the workflow. The planned sample supports an exploratory case study; broader superiority claims will require stronger evidence.
-
-The dataset is a historical, selected collection of user reviews. The study evaluates the analysis workflow on that collection rather than estimating current app satisfaction. The completed data audit establishes the available inputs; report generation and human evaluation remain to be conducted.
+This is a small study of one app. Its results will show what happened in this case and may not apply to every app or user. The dataset checks are complete at an initial level; report generation and evaluation are still planned.
