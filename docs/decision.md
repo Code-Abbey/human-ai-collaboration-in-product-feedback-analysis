@@ -1,6 +1,6 @@
 # Why the datasets fit the project
 
-The [concept](concept.md) calls for approximately 100–300 written reviews from a selected product domain. I currently propose selecting one app. The reviews must contain enough useful feedback to identify common topics, write summaries and suggest app improvements. Existing labels or summaries are not required.
+The [concept](concept.md) calls for approximately 100–300 written reviews from a selected product domain. The current proposal is to select one app. The reviews must contain enough useful feedback to identify common themes, write summaries and suggest app improvements. Existing labels or summaries are not required.
 
 | Part of the project | What the dataset provides |
 |---|---|
@@ -9,7 +9,7 @@ The [concept](concept.md) calls for approximately 100–300 written reviews from
 | Human refinements | Original reviews that a person can use to check, edit, merge or split AI-generated outputs. |
 | Expert report evaluation | Evidence for rating clarity, usefulness, actionability, relevance, completeness and overall quality. |
 
-Participants' perceived workload and the types of changes they make will be recorded during the study. These measures do not need to be included in the original dataset.
+Participants' perceived workload and the types of changes they make will be recorded where feasible. These measures do not need to be included in the original dataset.
 
 ## Proposed choice
 
@@ -25,4 +25,4 @@ The downloaded Spotify and Zoom files do not include review dates. This limits a
 
 ## Next decision
 
-A small trial using 30–50 reviews will help determine which app to use and how to select suitable reviews. I will then prepare the final review groups. The available data support the proposed work. The study will compare the three approaches using the submitted research questions.
+A small trial using 30–50 reviews will help determine which app to use and how to select suitable reviews. The final review groups will then be prepared. The available data support the proposed work. The study will compare the three approaches using the submitted research questions.

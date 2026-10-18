@@ -1,6 +1,6 @@
 # Research questions and objectives
 
-The following research questions and objectives were submitted to my supervisor.
+The following research questions and objectives were submitted to the supervisor.
 
 ## Main research question
 
@@ -28,6 +28,6 @@ How does a Human-in-the-Loop AI workflow compare with manual analysis and AI-onl
 | 2. Common human refinements | A record of corrections, edits, merges and splits, with counts and examples for categories, themes, summaries and suggested actions. |
 | 3. Expert assessment | Experts' report scores and short written reasons, checked against the original reviews. |
 
-Relevance to the original reviews will also be rated. Participants producing manual and human-refined reports will report their perceived workload after each task. Time spent will be recorded separately.
+Relevance to the original reviews will also be rated. Where feasible, participants producing manual and human-refined reports will rate their perceived workload after each task. Time spent will be recorded separately.
 
 The practical steps are set out in the [study plan](study-plan.md). The cited papers are listed in the [references](../references/README.md).

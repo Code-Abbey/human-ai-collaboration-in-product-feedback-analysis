@@ -5,23 +5,25 @@
 
 ## About the project
 
-My thesis follows a design-and-evaluation approach: I will build a small AI/NLP tool with a dashboard and compare three ways of analysing app reviews:
+This thesis will develop and evaluate a small AI tool with a dashboard. It will compare three ways of analysing app reviews:
 
 1. A person analyses the reviews without AI.
 2. AI analyses the reviews, and its results are used without human editing.
 3. A person checks and edits the AI-generated results.
 
-Each approach will produce a report with the same sections: main topics, short summaries, references to the supporting reviews, and suggested app improvements. A topic is a group of reviews about a similar issue, such as login problems. I will compare clarity, usefulness, actionability and relevance to the original reviews. Completeness and overall quality will also be assessed. I plan to involve approximately 3–6 expert evaluators. Participants' perceived workload and time spent will be recorded where feasible.
+Each approach will produce a report with the same sections: main themes, short summaries, references to the supporting reviews, and suggested app improvements. A theme is a common issue identified across reviews, such as login problems.
+
+Approximately 3–6 expert evaluators will assess clarity, usefulness, actionability, relevance to the original reviews, completeness and overall quality. Participants' perceived workload and time spent will be recorded where feasible.
 
 ## Main research question
 
 How does a Human-in-the-Loop AI workflow compare with manual analysis and AI-only analysis in producing clear, useful, and actionable product feedback insights from app reviews?
 
-The [research questions and objectives](docs/research-questions.md) contain the full wording submitted to my supervisor.
+The [research questions and objectives](docs/research-questions.md) contain the full wording submitted to the supervisor.
 
 ## Dataset
 
-My proposed choice is **Kahoot!**, using reviews from the GenAI-EdSent dataset. Spotify and Zoom are alternatives.
+The proposed dataset is **Kahoot! reviews from GenAI-EdSent**. Spotify and Zoom are alternatives.
 
 | App | Reviews downloaded | Reviews passing the first checks |
 |---|---:|---:|
@@ -31,7 +33,7 @@ My proposed choice is **Kahoot!**, using reviews from the GenAI-EdSent dataset. 
 
 The initial checks exclude reviews with no text, reviews with fewer than five words, repeated text, and reviews flagged as possibly containing contact details. The remaining reviews still need to be checked manually for relevance and personal information.
 
-The dataset does not need ready-made topics or summaries. Creating and evaluating those results is part of the thesis. I plan to use one app and approximately 100–300 reviews, with the final number agreed with my supervisor after a small trial.
+The dataset does not need ready-made topics or summaries. Creating and evaluating those results is part of the thesis. This thesis will use approximately 100–300 reviews from one app. The final number will be agreed with the supervisor after a small trial.
 
 ## Progress
 

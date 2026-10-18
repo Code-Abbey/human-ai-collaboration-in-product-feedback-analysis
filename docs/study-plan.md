@@ -8,13 +8,13 @@ The full [research questions and objectives](research-questions.md) guide this s
 
 ## Dataset and study size
 
-I propose using Kahoot! reviews. Spotify and Zoom are alternatives. The concept proposes approximately 100–300 reviews from a selected product domain. I currently propose using one app. The final number of reviews and their division into comparable groups will be agreed with my supervisor after a small trial.
+Kahoot! reviews are the proposed dataset, with Spotify and Zoom as alternatives. In line with the concept, this thesis will use approximately 100–300 reviews from one app. The final number of reviews and their division into comparable groups will be agreed with the supervisor after a small trial.
 
-I will remove repeated reviews, check that the text is relevant and understandable, and check for personal information. The groups should have a similar mix of review lengths, ratings and issues. Each review group will be analysed using all three approaches. A person who completes both a manual task and an AI-assisted task will receive different review groups, so they do not analyse the same reviews twice.
+Data preparation will remove repeated reviews and check the remaining text for relevance, readability and personal information. The groups should have a similar mix of review lengths, ratings and issues. Each review group will be analysed using all three approaches. A person who completes both a manual task and an AI-assisted task will receive different review groups, so they do not analyse the same reviews twice.
 
 ## AI tool and three approaches
 
-I will build a small AI/NLP pipeline: a sequence of steps that assigns review categories, groups reviews into themes, writes summaries and suggests product improvements. NLP means natural language processing, or using software to work with written language. Review categories may include bugs, feature requests, usability issues, performance complaints and positive feedback. Dąbrowski et al. (2022) and Wei et al. (2023) provide background for this work.
+The proposed AI/NLP pipeline will assign review categories, group reviews into themes, write summaries and suggest product improvements. NLP means natural language processing, or using software to work with written language. Review categories may include bugs, feature requests, usability issues, performance complaints and positive feedback. Dąbrowski et al. (2022) and Wei et al. (2023) provide background for this work.
 
 Possible methods include Sentence-BERT for identifying reviews with similar meanings (Reimers & Gurevych, 2019), BERTopic for grouping reviews into topics (Grootendorst, 2022), and an existing language model for classification, summaries and suggestions. InsightBench offers related ideas for generating insights and actions in several steps (Sahu et al., 2025). The final combination will be chosen after a small trial. These methods have not yet been implemented in this repository.
 
@@ -26,17 +26,17 @@ The full sources are listed in the [concept bibliography](../references/concept-
 | AI-only | AI produces the report using the same saved instructions and model settings for each review group. |
 | AI with human checking | A person checks the AI-generated report against the reviews and edits it where needed. |
 
-Each report will contain the main topics, a short summary of each topic, references to supporting reviews, and suggested app improvements.
+Each report will contain the main themes, a short summary of each theme, references to supporting reviews, and suggested app improvements.
 
 The dashboard will let the person correct review categories, rename themes, merge or split themes, move reviews between groups, and edit summaries or suggested actions. A category describes the type of feedback, such as a bug report or feature request. A theme groups reviews about a common issue, such as login problems.
 
 The interface design will draw on interactive learning and labelling research (Amershi et al., 2014; Chegini et al., 2019, 2020), Human-AI interaction guidelines (Amershi et al., 2019), and human refinement in thematic analysis (Yan et al., 2023). These sources inform the design; a separate active-learning or model-retraining experiment is not required.
 
-I will save the original and edited versions. For each change, I will record its type, the part changed and a short reason. I will count which refinements occur most often and include examples. These observations will answer the second sub-question.
+The prototype will save the original and edited versions. Each recorded change will include its type, the part changed and a short reason. The analysis will identify the most common refinements and present examples. These observations will answer the second sub-question.
 
 ## Comparing the reports
 
-People producing the reports are referred to as analysts. Approximately 3–6 expert reviewers will assess the completed reports alongside the original reviews, as proposed in the concept. The report labels will not reveal which approach produced them. Reviewers will score them from 1 (poor) to 5 (very good).
+People producing the reports are referred to as analysts. Approximately 3–6 expert reviewers will assess the completed reports alongside the original reviews, as proposed in the concept. The reports will use neutral identifiers, and reviewers will not be told which approach produced each report. Reviewers will score them from 1 (poor) to 5 (very good).
 
 | Criterion | Question for expert reviewers |
 |---|---|
@@ -51,14 +51,14 @@ Expert reviewers will give a separate score and a short reason for each criterio
 
 ## Perceived workload and time
 
-After each manual or HITL task, the analyst will answer: **How demanding did this task feel?** The proposed scale runs from 1 (very low workload) to 5 (very high workload), with space for a short explanation. This is a proposed simple measure for objective 5. Its use and wording will be checked in the small trial and agreed with my supervisor. The concept makes recording workload, time and corrections subject to feasibility.
+After each manual or HITL task, the analyst will answer: **How demanding did this task feel?** The proposed scale runs from 1 (very low workload) to 5 (very high workload), with space for a short explanation. This is a proposed simple measure for objective 5. Its use and wording will be checked in the small trial and agreed with the supervisor. The concept makes recording workload, time and corrections subject to feasibility.
 
 Time spent will be recorded separately. A short task can still feel demanding. AI-only analysis has no human analyst performing the analysis task, so it will not receive a participant workload score. Any human setup work will be documented separately.
 
-The number of analysts and the final number of expert reviewers will be agreed with my supervisor after the trial. Reviewers will not assess reports they produced themselves. The order of the manual and AI-assisted tasks will vary between analysts to reduce the effect of practice or fatigue.
+The number of analysts and the final number of expert reviewers will be agreed with the supervisor after the trial. Reviewers will not assess reports they produced themselves. The order of the manual and AI-assisted tasks will vary between analysts to reduce the effect of practice or fatigue.
 
 ## Results and limits
 
-I will compare the six report-quality scores across the three approaches and summarise the experts' written comments. I will also report the most common types of human refinement, the participants' workload ratings and the time spent. The comparison may show improvements, little difference or disadvantages from human refinement. Several ratings of the same report will be treated as opinions about that report, rather than as separate experiments.
+The analysis will compare the six report-quality scores across the three approaches and summarise the experts' written comments. Where collected, refinement records, workload ratings and task times will provide further context. The comparison may show improvements, little difference or disadvantages from human refinement. Several ratings of the same report will be treated as opinions about that report, rather than as separate experiments.
 
 This is a small study of one app. Its results will show what happened in this case and may not apply to every app or user. Initial data checks have been completed. Report generation and evaluation have not yet been carried out.

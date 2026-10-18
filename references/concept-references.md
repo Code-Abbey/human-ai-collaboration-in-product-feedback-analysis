@@ -1,6 +1,6 @@
 # References from the concept paper
 
-These ten sources form the literature base of my concept draft. The entries use APA style. DOI details were checked against Crossref or the original arXiv records on 18 October 2026. Dataset sources and additional reading are listed in the [reference overview](README.md). A [BibTeX file](references.bib) contains the citations for reuse.
+These ten sources form the literature base of the concept draft. The entries use APA style. DOI details were checked against Crossref or the original arXiv records on 18 October 2026. Dataset sources and additional reading are listed in the [reference overview](README.md). A [BibTeX file](references.bib) contains the citations for reuse.
 
 Amershi, S., Cakmak, M., Knox, W. B., & Kulesza, T. (2014). Power to the people: The role of humans in interactive machine learning. *AI Magazine, 35*(4), 105–120. [https://doi.org/10.1609/aimag.v35i4.2513](https://doi.org/10.1609/aimag.v35i4.2513)
 
@@ -14,7 +14,7 @@ Dąbrowski, J., Letier, E., Perini, A., & Susi, A. (2022). Analysing app reviews
 
 Grootendorst, M. (2022). *BERTopic: Neural topic modeling with a class-based TF-IDF procedure* (Version 1) [Preprint]. arXiv. [https://doi.org/10.48550/ARXIV.2203.05794](https://doi.org/10.48550/ARXIV.2203.05794)
 
-Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using siamese BERT-networks. *Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)*, 3980–3990. [https://doi.org/10.18653/v1/D19-1410](https://doi.org/10.18653/v1/D19-1410)
+Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using Siamese BERT-networks. *Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)*, 3980–3990. [https://doi.org/10.18653/v1/D19-1410](https://doi.org/10.18653/v1/D19-1410)
 
 Sahu, G., Puri, A., Rodriguez, J., Abaskohi, A., Chegini, M., Drouin, A., Taslakian, P., Zantedeschi, V., Lacoste, A., Vazquez, D., Chapados, N., Pal, C., Mudumba, S. R., & Laradji, I. H. (2025). *InsightBench: Evaluating business analytics agents through multi-step insight generation* (Version 4) [Preprint]. arXiv. [https://doi.org/10.48550/ARXIV.2407.06423](https://doi.org/10.48550/ARXIV.2407.06423)
 

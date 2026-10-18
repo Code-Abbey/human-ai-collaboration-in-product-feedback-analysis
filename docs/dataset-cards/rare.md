@@ -17,6 +17,6 @@ The checks found **130 different original review texts appearing in both the gol
 
 ## Use in the thesis
 
-RARE is useful background on improving review wording. My main study compares reports that summarise groups of reviews, so it does not require this dataset. RARE is kept as a reference rather than an extra experiment.
+RARE is useful background on improving review wording. This thesis compares reports that summarise groups of reviews, so it does not require this dataset. RARE is kept as a reference rather than an extra experiment.
 
 **Data licence:** CC BY 4.0, with attribution. The related paper is listed in the [references](../../references/README.md), and the detailed counts are in the [data report](../../reports/audit.json).
