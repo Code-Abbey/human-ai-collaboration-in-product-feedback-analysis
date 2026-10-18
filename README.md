@@ -34,12 +34,6 @@ The proposed dataset is **Kahoot! reviews from GenAI-EdSent**. Spotify and Zoom 
 The initial checks exclude reviews with no text, reviews with fewer than five words, repeated text, and reviews flagged as possibly containing contact details. The remaining reviews still need to be checked manually for relevance and personal information.
 
 
-## Progress
-
-The candidate datasets have been downloaded and checked for basic data quality. The main analysis and comparison have not yet been carried out.
-
-The original downloaded review files are stored locally and are not uploaded to this public repository. This repository contains the findings, source links and scripts needed to download the same files.
-
 ## Project documents
 
 - [Concept overview](docs/concept.md)
